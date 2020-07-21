@@ -32,7 +32,7 @@ fetch(url)
  if (json.name != null) {
   name.innerHTML = json.name;    
 } else {
-  name.innerHTML = 'Информация о пользователя недоступна';
+  name.innerHTML = 'Информация о пользователе недоступна';
 }
 body.append(name); 
 
